@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+p {
+    color: chocolate;
+    text-align: justify;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#paragrafo-footer {
+    text-align: center;
+    color: black;
+}
