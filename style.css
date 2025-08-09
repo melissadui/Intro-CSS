@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: brown;
+    color: rgb(207, 35, 35);
 }
 
 p {
@@ -9,10 +9,84 @@ p {
 }
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(0, 0, 0);
 }
 
+/* Usamos hastahg(#) para identificar o id - identifier(identificador) 
+
+Só usamos um id para aplicar um efeito único, uma vez só, diferente da class que vou reutilizar*/
 #paragrafo-footer {
     text-align: center;
-    color: black;
+}
+
+.paragrafo-section {
+    color: gold;
+}
+
+section {
+    background-color: blueviolet;
+}
+
+h2 {
+    color: rgb(184, 121, 255);
+}
+
+
+section h2 {
+    color: beige;
+    background-color: rgb(0, 145, 43);
+}
+
+body {
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+header h1 {
+    /* para deixar o texto maiúsculo */
+    /* text-transform: uppercase; */
+
+    /* para deixar o texto mminusculo */
+    /* text-transform: uppercase; */
+
+    /* para deixar o texto mminusculo */
+    text-transform: capitalize;
+    background-color: rgb(54, 0, 155);
+}
+
+main section {
+    text-align: center;
+}
+
+main section p{
+    text-align: center;
+}
+
+section h2 {
+    width: 500px;
+
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
+
+
+
+    /* shorthand - atalho */
+    /* padding aplica em todas as direções (left, right, left, bottom) */
+    /* 
+    no caso de mais de um valor no padding, funciona assim:
+    - primeiro valor: top/bottom 
+    - segundo valor: right/lef
+    */
+    padding: 20px 5px;
+
+
+
+    /* espressura/  tipo de borda/ cor da borda */
+    /* estilos de borda,ex: dashed, solid etc */
+    border: 3px solid black;
+
+
+    margin-top: 80px;
 }
